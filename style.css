@@ -1,5 +1,28 @@
 *{
     background-color: black;
-    position: relative;
+    position: relativeab;
     margin: 0;
+}
+
+/* Classes: */
+
+/* Main Header */
+.main-header{
+    color: aliceblue;
+    text-align: center;
+}
+.main-header h1{
+    padding: .5em 0 1em 0em;
+    margin: 0em;
+    background-color: rgb(12, 11, 29);
+}
+.main-header h3{
+    display: inline;
+    padding: .4em;
+    margin: 2em .4em;
+    border: 0.1em white solid;
+}
+.main-header h3:hover{
+    background-color: aliceblue;
+    color: black;
 }
