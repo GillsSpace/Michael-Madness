@@ -3,7 +3,6 @@
     background-color: rgb(98, 88, 88);
     position: relative;
     margin: 0;
-
 }
 a{
     color: inherit;
@@ -71,14 +70,12 @@ header h3:hover{
     100%{left:110%}
 }
 
-
 /* Main Page */
 main{
     color: white;
     text-align: center;
     padding: 1em;
     margin: .2em;
-    background-image: url(Images/img_0002.png);
 }
 
 
