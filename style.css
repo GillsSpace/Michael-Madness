@@ -1,3 +1,4 @@
+/* Full Website */
 *{
     background-color: rgb(98, 88, 88);
     position: relative;
@@ -9,45 +10,43 @@ a{
     text-decoration: inherit;
 }
 
-/* Classes: */
-
 /* Main Header */
-.main-header{
+header{
     color: aliceblue;
     text-align: center;
 }
-.main-header .top{
+header .top{
     background-color: rgb(12, 11, 29);
     padding: .5em;
 }
-.main-header h1{
+header h1{
     padding: .5em 2.5em 1em 2.5em;
     margin: 0em;
     background-color: rgb(12, 11, 29);
     display: inline;
 }
-.main-header .top h2{
+header .top h2{
     display: inline;
     background-color: rgb(12, 11, 29)
 }
-.main-header .scrollbar{
+header .scrollbar{
     color: aquamarine;
     background-color: brown;
     overflow: hidden;
 }
-.main-header .scrollbar h2{
+header .scrollbar h2{
     position: relative;
     background-color: brown;
     animation: scroll 8s linear 0s infinite ;
 }
-.main-header h3{
+header h3{
     padding: 0.3em;
     display: inline-block;
     color: white;
     border: .1em white solid;
     margin: .2em;
 }
-.main-header h3:hover{
+header h3:hover{
     color: black;
     background-color: white;
 }
@@ -74,9 +73,19 @@ a{
 
 
 /* Main Page */
-.main-page{
+main{
     color: white;
     text-align: center;
     padding: 1em;
     margin: .2em;
+}
+
+
+/* Footer */
+footer *{
+    align-items: baseline;
+    background-color: rgb(12, 11, 29);
+    color: white;
+    text-align: center;
+    padding: .2em;
 }
