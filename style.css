@@ -3,7 +3,7 @@
     background-color: rgb(98, 88, 88);
     position: relative;
     margin: 0;
-    
+
 }
 a{
     color: inherit;
@@ -78,6 +78,7 @@ main{
     text-align: center;
     padding: 1em;
     margin: .2em;
+    background-image: url(Images/img_0002.png);
 }
 
 
