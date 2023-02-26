@@ -24,6 +24,9 @@ header h1{
     background-color: rgb(12, 11, 29);
     display: inline;
 }
+header .top{
+    animation: inFromTop 1s linear 0s 1;
+}
 header .top h2{
     display: inline;
     background-color: rgb(12, 11, 29)
@@ -65,10 +68,15 @@ header h3:hover{
     display: block;
     z-index: 100;
 }
+@keyframes inFromTop{
+    0%{transform: translateY(-5em)}
+    100%{transform: translateY(0em)}
+}
 @keyframes scroll{
     0%{left:-110%}
     100%{left:110%}
 }
+
 
 /* Main Page */
 main{
