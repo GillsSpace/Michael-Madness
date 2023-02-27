@@ -85,7 +85,9 @@ main{
     padding: 1em;
     margin: .2em;
 }
-
+.contributor{
+    border: .2em lightblue solid;
+}
 
 /* Footer */
 footer *{
