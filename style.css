@@ -87,6 +87,7 @@ main{
 }
 .contributor{
     border: .2em lightblue solid;
+    margin: .5em;
 }
 
 /* Footer */

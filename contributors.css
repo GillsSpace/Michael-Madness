@@ -1,0 +1,13 @@
+*{
+    background-color: black;
+}
+
+.contributor{
+    display: flex;
+    border: .2em red solid;
+    padding: .5em;
+}
+
+img{
+    max-width: 15em;
+}
